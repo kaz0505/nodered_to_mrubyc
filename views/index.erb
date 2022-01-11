@@ -1,9 +1,21 @@
 <html lang="ja">	
+  <meta charset="UTF-8">
   <head>
-    <meta charset="UTF-8">
     <title>データフロープログラミング for mruby/c</title>
   </head>
   <body>
     <h1>データフロープログラミング for mruby/c</h1>
+    <form method="POST">
+      <div>
+	JSONデータ：
+	<textarea name="json_data"
+		  rows="20" cols="40"
+		  placeholder="Node-REDで「書き出し」をして、ペーストしてください">
+	</textarea>
+      </div>
+      <div>
+	<input type="submit" value="rbファイルを生成する" formaction="/download_rb">
+      </div>
+    </form>
   </body>
 </html>
